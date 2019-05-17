@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh root@18.218.229.217 <<EOF
+ cd ~/nodecicd
+ git pull
+ npm install — production
+ pm2 restart all
+ exit
+EOF
