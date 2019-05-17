@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh root@18.218.229.217 <<EOF
- cd ~/nodecicd
+ cd /home/ec2-user/nodecicd
  git pull
  pm2 restart all
  exit
