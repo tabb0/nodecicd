@@ -1,5 +1,6 @@
 var request = require('supertest');
 var app = require('../index.js');
+// Esta es una prueba de comentario
 describe('GET /', function() {
     it('respond with hey world', function(done) {
         //navigate to root and check the the response is "hello world"
