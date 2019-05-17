@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh -i "/home/Node-App-Server-Key.pem" ec2-user@18.218.229.217 <<EOF
+ssh -i "/home/ec2-user/Node-App-Server-Key.pem" ec2-user@18.218.229.217 <<EOF
     cd /home/ec2-user/nodecicd
     git pull
     pm2 restart all
