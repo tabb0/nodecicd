@@ -1,2 +1,3 @@
 #!/bin/sh
+cd /home/ec2-user/nodecicd
 ./node_modules/.bin/mocha ./test/test.js
